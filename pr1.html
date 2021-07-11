@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        background-color: #e7f7fa33;
+    }
+    h1 {
+        border-bottom: 5px solid black;
+    }
+
+    .box1 {
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img {
+        height: 300px;
+        width: 99%;
+        border: 2px solid;
+        border-radius: 10px;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    li {
+        height: 400px;
+        width: 42%;
+        border: 2px solid transparent;
+        margin-top: 50px;
+        list-style: none;
+        padding: 2px;
+
+    }
+
+    .dabba {
+        width: 100%;
+        height: 400px;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .4);
+        border-radius: 5px;
+        background-image: linear-gradient(#efeff4, #caffff17);
+
+        backdrop-filter: blur(5px);
+    }
+    a:active{
+        color: black;
+    }
+</style>
+
+<body>
+    <main>
+        <div class="box1">
+            <h1>Projects</h1>
+        </div>
+        <div class="box2">
+            <ul>
+                <li>
+                    <div class="dabba">
+                        <a href="https://coviid-19.netlify.app/" target="_blank"> <img src="p1.jfif" onmouseover="bigImg(this)" onmouseout="normalImg(this)" alt="">
+                        </a><p style="text-align: center;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
+                            veritatis aspernatur sunt
+                            minima iure eveniet rerum impedit facere. Molestias a ut aperiam praesentium provident natus
+                            doloribus alias explicabo atque accusantium?</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="dabba">
+                        <a href="https://review4u.netlify.app/" target="_blank"><img src="p2.jfif" onmouseover="bigImg(this)" onmouseout="normalImg(this)" alt="">
+                        </a></div>
+                </li>
+                <li>
+                    <div class="dabba">
+                        <a href="https://app.netlify.com/sites/reminderlist" target="_blank"><img src="pr3.jfif" onmouseover="bigImg(this)" onmouseout="normalImg(this)" alt="">
+                        </a></div>
+                </li>
+                <li>
+                    <div class="dabba">
+                        <a href="https://arunsingh009.github.io/plp/" target="_blank"><img src="p4.jfif" onmouseover="bigImg(this)" onmouseout="normalImg(this)" alt="">
+                        </a></div>
+                </li>
+                <li>
+                    <div class="dabba">
+                        <a href="https://arunsingh009.github.io/khana/" target="_blank"><img src="p5.jfif" onmouseover="bigImg(this)" onmouseout="normalImg(this)" alt="">
+                        </a></div>
+                </li> 
+                <li>
+                    <div class="dabba">
+                        <a href="https://arunsingh009.github.io/firstresponsive-website/" target="_blank"><img src="p6.jfif" onmouseover="bigImg(this)" onmouseout="normalImg(this)" alt="">
+                        </a></div>
+                </li> 
+                <li>
+                    <div class="dabba">
+                        <a href="https://arunsingh009.github.io/bootstrap-portfolio-1/" target="_blank"><img src="p7.jfif" onmouseover="bigImg(this)" onmouseout="normalImg(this)" alt=""></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="dabba">
+                        <a href="https://arunsingh009.github.io/bootstrap-portfolio-1/" target="_blank"><img src="p8.jfif" onmouseover="bigImg(this)" onmouseout="normalImg(this)" alt=""></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+</body>
+<script>
+    function bigImg(x) {
+        x.style.height = "320px";
+        x.style.width = "105%";
+    }
+
+    function normalImg(x) {
+        x.style.height = "300px";
+        x.style.width = "99%";
+    }
+</script>
+
+</html>

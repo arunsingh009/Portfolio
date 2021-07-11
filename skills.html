@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            overflow: hidden;
+        }
+        main{
+            display:flex;
+            flex-direction: column;
+            
+        }
+        main::after{
+            content: "";
+            background-color: #e7f7fa;
+            /* background-image: url(https://arknewtech.com/assets/images/python-2.gif); */
+            background-image: url(https://qph.fs.quoracdn.net/main-qimg-03a4a5f034bf0bafa661fd8a8aabedc8);
+            background-repeat: no-repeat;
+           background-position: center;
+           border-radius: 3000px;
+            position: absolute;
+            z-index: -1;
+            opacity: 0.5;
+            height: 100vh;
+            width: 100%;
+        }
+        
+        .box1{
+            height:20vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }.box2{
+            height:80vh;
+            /* display: flex;
+            flex-direction: row; */
+        }
+        h1{
+            font-size: 50px;
+            border-bottom: 5px solid black;
+        }
+        img{
+            height:100px;
+            width:100px;
+            border-radius: 50px;
+            border: 2px solid black;
+            padding: 30px;
+        }
+        img:hover{
+            background-color: rgba(185, 185, 185, 0.3);
+            cursor: pointer;
+
+        }
+        .chotabox1,.chotabox2{
+            display: flex;
+            justify-content:space-around;
+            margin-top:30px;
+        } 
+        
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+        <div class="box1">
+            <h1>Skills</h1>
+
+        </div>
+        <div class="box2">
+            <div class="chotabox1">
+            <div class="img">
+                <img src="c.png" alt="">
+            </div>
+            <div class="img">
+                <img src="html.png" alt="">
+            </div>
+            <div class="img">
+                <img src="css.png" alt="">
+            </div>
+            <div class="img">
+                <img src="javascript.png" alt="">
+            </div>
+          </div>
+          <div class="chotabox2">
+            <div class="img">
+                <img src="Bootstrap.png" alt="">
+            </div>
+            <div class="img">
+                <img src="Wordpress.png" alt="">
+            </div>
+            <div class="img">
+                <img src="canva.png" alt="">
+            </div>
+            <div class="img">
+                <img src="figma.png" alt="">
+            </div>
+        </div>
+            
+        </div>
+    </section>
+    </main>
+    
+</body>
+</html>
