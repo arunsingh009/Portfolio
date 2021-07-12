@@ -175,20 +175,4 @@ main{
 
 }
 
-@media (max-width:1200px){
-    .rightside img {
-        max-width: 300px;
-        height: 300px;
-    }
-
-}
-@media (max-width:1000px){
-    *{
-        visibility: hidden;
-    }
-    .hid{
-        visibility:visible ;
-    }
-    
-}
 
